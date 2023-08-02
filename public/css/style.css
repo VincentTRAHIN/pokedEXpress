@@ -1,0 +1,77 @@
+/* Universal Style */
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: #c14040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem 2rem 3rem;
+}
+
+/* Header Style */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+.header-nav {
+    background-color: #efe3e3;
+    width: 88vw;
+    height: max;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+    padding: 0 0.8em 0 0.5em;
+}
+
+.header-nav__h1 {
+    color: #c14040; 
+    margin-left: 0.8em;
+}
+
+.header-nav__menu-a {
+    margin-right: 0.4em;
+    color: #c14040;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* Home Page Style */
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+}
+
+.pokeCard {
+    display: flex;
+    background: #982c2c;
+    align-items: center;
+    justify-content: center;
+    width: 28vw;
+    border-radius: 30px;
+    margin: 2em 1vw 0 1vw;    
+}
+
+.pokeCard__a {
+    text-decoration: none;
+}
+
+.pokeCard__img {
+    padding: 1rem;
+    width: 24vw;
+}
+
+.pokeCard__name {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #E9A382;    
+}
+
+
