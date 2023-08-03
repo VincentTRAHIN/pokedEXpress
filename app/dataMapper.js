@@ -31,6 +31,25 @@ const dataMapper = {
     return result.rows;
   },
 
+  async getPokemonById (id) {
+    const query = {
+      text: `SELECT * FROM 
+      pokemon AS p 
+      JOIN 
+      pokemon_type AS pt 
+      ON 
+      p.numero = pt.pokemon_numero 
+      JOIN 
+      type AS t 
+      ON 
+      pt.type_id = t.id WHERE p.id = $1`,
+      values: [id] 
+    };
+    const result = await database.query(query);
+    return result.rows;
+  },
+
+
 }
 
 module.exports = dataMapper;

@@ -1,0 +1,84 @@
+<%- include('partials/header') %>
+
+    <div class="pokeContainer-detail">
+        <header clss="pokeContainer-detail__header">
+            <h1 class="pokeContainer-detail__h1">Détails de <%= pokemon.nom %> </h1>
+        </header>
+        
+        <main class="pokeContainer-main-detail">
+            
+            <img class="pokeContainer-detail__img" src="/img/<%= pokemon.numero %>.png" alt="<%= pokemon.nom %> illustration">  
+            
+            <div class="pokeContainer-main-detail__stat">
+                <h2 class="pokeContainer-main-detail__h2">#<%= pokemon.numero %> <%= pokemon.nom %></h2>
+                <div class="pokeContainer__type-of-pokemon">
+                    
+                        <div class="type-of-pokemon" style="background-color:#<%= pokemon.color %>">
+                            <p class="type-of-pokemon__name-detail"><%= pokemon.name %></p>
+                        </div>
+                        <div class="type-of-pokemon" style="background-color:#<%= pokemon.second_color %>">
+                            <p class="type-of-pokemon__name-detail"><%= pokemon.second_name %></p>
+                        </div>
+                    
+                </div>
+                <div class="type-detail">
+                    
+                    <div>
+                        <p class="pokeStats">Statistiques</p>                        
+                    </div>
+                    <div>
+                        <div class="stat">
+                            <p>PV</p>
+                            <p class="hp"><%= pokemon.pv %></p>
+                            <div class="progress__bar" >
+                                <div style="width: <%=pokemon.pv/255*100%>% ;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p>Attaque</p>
+                            <p class="atk"><%= pokemon.attaque %></p>
+                            <div class="progress__bar" >
+                                <div style="width: <%=pokemon.attaque/255*100%>% ;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p>defense</p>
+                            <p class="def"><%= pokemon.defense %></p>
+                            <div class="progress__bar" >
+                                <div style="width: <%=pokemon.defense/255*100%>% ;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p>attaque_spe</p>
+                            <p class="atk__spe"><%= pokemon.attaque_spe %></p>
+                            <div class="progress__bar" >
+                                <div style="width: <%=pokemon.attaque_spe/255*100%>% ;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p>defense_spe</p>
+                            <p class="def_spe"><%= pokemon.defense_spe %></p>
+                            <div class="progress__bar" >
+                                <div style="width: <%=pokemon.defense_spe/255*100%>% ;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <p>vitesse</p>
+                            <p class="speed"><%= pokemon.vitesse %></p>
+                            <div class="progress__bar" >
+                                <div style="width: <%=pokemon.vitesse/255*100%>% ;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="pokeContainer-detail__footer">
+            <div>
+                <a class="pokeContainer-detail__footer--backlink" href="/">Retour à la liste</a>
+            </div>
+        </footer>
+    </div>
+    
+
+<%- include('partials/footer') %>
