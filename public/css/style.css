@@ -83,7 +83,6 @@ body {
     align-items: center;    
     width: 90vw;
     height: max-content;
-    padding-top: 2rem;    
 }
 
 .pokeContainer-detail__header {
@@ -94,7 +93,7 @@ body {
 .pokeContainer-detail__h1 {
     color: #fff;
     font-weight: bold;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     
 }
 
@@ -102,31 +101,48 @@ body {
 .pokeContainer-main-detail {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin: 0 auto;    
+}
+
+
+.pokeContainer-main-detail__h2 {
+      padding-bottom: 1rem;
+      margin-top: 2rem;
+      margin-left: 1rem ;
 }
 
 .pokeContainer-detail__img {
-    width: 32vw;
-    height: 80vh;
+    width: 25vw;
+    height: 50vh;
+    margin-right: 2rem;
+
 }
 
 .pokeContainer-main-detail__stat {
-    background-color: #982c2c;
-    border-radius: 5px;
+    background-color: #af3737;
+    border-radius: 15px;
     width:55vw;
-    height: 70vh;
-    padding: 2rem 1rem 2rem 1rem;
+    height: 60vh;
+    padding: 1rem 1rem 2rem 1rem;
     color: #fff;
 }
 
 .pokeContainer__type-of-pokemon {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;   
 }
 
+
 .type-of-pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     border-radius: 5px;
     padding:0.1rem 0.1rem 0.1rem 0.1rem;
-    margin: 2vh 2vw 2vh 0;
+    margin: 0 1rem;
+    
     
 }
 
@@ -144,48 +160,100 @@ body {
 .stat {
     display: flex;
     justify-content: space-between; 
-    margin-top: 2.7vh; 
+    margin-top: 1vh; 
 }
 
 .hp {
-    margin-left: 5vw;
+    margin-left: 4vw;
 }
 
 .atk {
     margin-left: 2vw;
 }
+
+.atk__spe {
+    margin-left: 0.4vw;
+}
+
+
 .def {
     margin-left: 2vw;
 }
 
+.def__spe {
+    margin-left: 0.4vw;
+}
+
 .speed {
-    margin-left: 2.5vw;
+    margin-left: 2.4vw;
 }
 
 .progress__bar {
-    background-color: black;
+    background-color: #631f1f;
     border-radius: 8px;
+    height: 4vh;
     width: 30vw;
     padding: 0px;
   }
   
-  .progress__bar > div {
+.progress__bar > div {
     background-color: #fff;  
     height: 100%;
     border-radius: 8px 0 0 8px;    
   }
 
 .pokeContainer-detail__footer {
-    text-align: center;    
+    text-align: center;   
+    display: block; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.okeContainer-detail__footer--backlink {
+.pokeContainer-detail__footer--backlink {
     text-decoration: none;
     color: #fff;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 
 /* Types Page Style */
 
+.types__h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem 0 1.5rem 0;
+    
+}
+
+.types__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.5vw;
+    width: 100%;
+    
+}
+
+
+
+.types__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 24%;
+    border-radius:5px;
+    margin: 0 0.5em 0.5em 0;
+    padding-top: 0.5em;
+    font-size: 1.5rem;
+}
+
+.types__type-a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
 /* Footer Page Style */
+
