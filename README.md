@@ -38,8 +38,8 @@ In the vast universe of Pokémon, the Pokédex serves as an essential encycloped
 If encountering any issues:
 - Ensure the database, `pokedex.sql`, is properly imported and connected.
 - Check if all dependencies are correctly installed using `npm install`.
-- 
-For more detailed help or troubleshooting, refer to the project's documentation or raise an issue in the GitHub repository.
+- For more detailed help or troubleshooting, refer to the project's documentation or raise an issue in the GitHub repository.
+
 
 ## Authors
 
