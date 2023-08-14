@@ -44,7 +44,7 @@ For more detailed help or troubleshooting, refer to the project's documentation 
 ## Authors
 
 [Vincent TRAHIN]  
-[<a href=https://www.linkedin.com/in/vincent-trahin>![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a> <a href=mailto:vincent.trahin@gmail.com>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>]
+<a href=https://www.linkedin.com/in/vincent-trahin>![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a> <a href=mailto:vincent.trahin@gmail.com>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
 
 ## Version History
 
