@@ -27,10 +27,7 @@ In the vast universe of Pokémon, the Pokédex serves as an essential encycloped
 ### Executing program
 
 - Navigate to the project's root directory.
-- Run the application using:
-
-`npm start`
-
+- Run the application using: `npm start`
 - Open a browser and go to `http://localhost:3000` to access the Pokédex.
 
 ## Help
