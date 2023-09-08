@@ -258,7 +258,6 @@ body {
 /* Footer Page Style */
 
 /* Responsive Styles for Mobile */
-
 @media only screen and (max-width: 768px) {
     body {
         padding: 1rem;
@@ -275,10 +274,32 @@ body {
         align-items: center;
         padding: 1rem 0;
     }
+    
+    .pokeContainer, .pokeCard, .pokeContainer-detail {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .pokeCard__img, .pokeContainer-detail__img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .pokeCard__a, .pokeContainer-detail__footer--backlink, .types__type-a {
+        display: block;
+        width: 100%;
+    }
+    
+    .pokeStats, .stat {
+        flex-direction: column;
+    }
+    
+    .types__container {
+        flex-wrap: wrap;
+    }
 }
 
 /* Responsive Styles for Tablet */
-
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     body {
         padding: 1rem 2rem;
@@ -294,6 +315,29 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 1rem 0;
+    }
+    
+    .pokeContainer, .pokeCard, .pokeContainer-detail {
+        width: 95%;
+        flex-direction: column;
+    }
+    
+    .pokeCard__img, .pokeContainer-detail__img {
+        max-width: 95%;
+        height: auto;
+    }
+    
+    .pokeCard__a, .pokeContainer-detail__footer--backlink, .types__type-a {
+        display: block;
+        width: 95%;
+    }
+    
+    .pokeStats, .stat {
+        flex-direction: column;
+    }
+    
+    .types__container {
+        flex-wrap: wrap;
     }
 }
 
