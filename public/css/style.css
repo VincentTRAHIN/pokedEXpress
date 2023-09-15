@@ -264,29 +264,47 @@ body {
     }
     
     .header-container {
-        flex-direction: column;
-        height: auto;
+        display: flex;
+        height: 100%;
     }
     
     .header-nav {
-        width: 100%;
+        width: 90%;
         flex-direction: column;
         align-items: center;
         padding: 1rem 0;
     }
+
+    .header-nav__h1 {
+        margin: 0;
+    }
     
-    .pokeContainer, .pokeCard, .pokeContainer-detail {
-        width: 100%;
-        flex-direction: column;
+    .pokeContainer, .pokeContainer-detail {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        justify-content: center;
+    }
+
+    
+    .pokeCard__name {
+        font-size: 0.7rem;
+        text-align: center;
+        color: #E9A382;  
+        margin-top: 0;  
     }
     
     .pokeCard__img, .pokeContainer-detail__img {
-        width: 100%;
+        padding: 0.5rem;
+        width: 18vw;
         height: auto;
     }
     
     .pokeCard__a, .pokeContainer-detail__footer--backlink, .types__type-a {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
         width: 100%;
     }
     
@@ -306,20 +324,22 @@ body {
     }
     
     .header-container {
-        flex-direction: column;
-        height: auto;
+        display: flex;
+        height: 100%;
     }
     
     .header-nav {
         width: 95%;
-        flex-direction: column;
+        display: flex;
         align-items: center;
-        padding: 1rem 0;
+        padding: 1rem;
     }
     
-    .pokeContainer, .pokeCard, .pokeContainer-detail {
-        width: 95%;
-        flex-direction: column;
+    .pokeContainer, .pokeContainer-detail {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        justify-content: center;
     }
     
     .pokeCard__img, .pokeContainer-detail__img {
