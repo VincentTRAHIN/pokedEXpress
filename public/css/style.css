@@ -262,6 +262,7 @@ body {
     body {
         padding: 1rem;
     }
+
     
     .header-container {
         display: flex;
@@ -279,13 +280,22 @@ body {
         margin: 0;
     }
     
-    .pokeContainer, .pokeContainer-detail {
+    .pokeContainer {
         display: flex;
         flex-wrap: wrap;
         width: 90vw;
         justify-content: center;
     }
 
+    .pokeContainer-detail__h1 {
+        text-align: center;
+        padding-bottom: 0.3rem;
+    }
+
+    .pokeContainer-main-detail {
+        display: flex;
+        flex-wrap: wrap;
+    }
     
     .pokeCard__name {
         font-size: 0.7rem;
@@ -294,12 +304,35 @@ body {
         margin-top: 0;  
     }
     
-    .pokeCard__img, .pokeContainer-detail__img {
+    .pokeCard__img {
         padding: 0.5rem;
         width: 18vw;
         height: auto;
     }
+
+    .pokeContainer-detail__img {
+        padding: 0.5rem;
+        width: 38vw;
+        height: auto;
+        margin-bottom: 1rem;
+        
     
+    }
+
+    .pokeContainer-main-detail__stat {
+        background-color: #af3737;
+        border-radius: 15px;
+        width:80vw;
+        height: auto;
+        padding: 1rem 1rem 2rem 1rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .pokeContainer__type-of-pokemon {
+        justify-content: center;
+    }
+
     .pokeCard__a, .pokeContainer-detail__footer--backlink, .types__type-a {
         display: flex;
         flex-direction: column;
@@ -307,11 +340,7 @@ body {
         align-items: center;
         width: 100%;
     }
-    
-    .pokeStats, .stat {
-        flex-direction: column;
-    }
-    
+
     .types__container {
         flex-wrap: wrap;
     }
@@ -335,13 +364,28 @@ body {
         padding: 1rem;
     }
     
-    .pokeContainer, .pokeContainer-detail {
+    .pokeContainer {
         display: flex;
         flex-wrap: wrap;
         width: 90vw;
         justify-content: center;
     }
+
+    .pokeContainer-main-detail {
+        display: flex;
+        flex-wrap: wrap;
+    }
     
+    
+    .pokeContainer-main-detail__stat {
+        background-color: #af3737;
+        border-radius: 15px;
+        width:80vw;
+        height: auto;
+        padding: 1rem 1rem 2rem 1rem;
+        color: #fff;
+    }
+
     .pokeCard__img, .pokeContainer-detail__img {
         max-width: 95%;
         height: auto;
@@ -352,10 +396,7 @@ body {
         width: 95%;
     }
     
-    .pokeStats, .stat {
-        flex-direction: column;
-    }
-    
+   
     .types__container {
         flex-wrap: wrap;
     }
