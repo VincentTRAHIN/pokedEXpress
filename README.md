@@ -47,6 +47,6 @@ Vincent TRAHIN <br><br>
 ## Version History
 
 - 0.1
-    - Initial Release.
+    - Initial Release : [Click to watch my project](https://pokedexpressapp.onrender.com/ "PokedEXpress HomePage")
 
 (You can update the Version History as you make new releases)
